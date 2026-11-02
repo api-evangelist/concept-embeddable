@@ -1,0 +1,60 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-28'
+method: searched
+source: https://embeddable.com/pricing
+sources:
+- https://embeddable.com/pricing
+provenance:
+  tool: engine/economics/harvest_pricing.py
+  run: 20261028T161713
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: unclear
+  method: page
+  read: '2026-10-28'
+published: false
+note: No numeric price is published on the pricing page; Page advertises a flat monthly subscription with
+  unlimited usage but shows no numeric prices; custom quote via sales.
+plan_count: 3
+plans:
+- name: Startup / Early stage
+  price_text: Speak to us
+  period: none
+  included_quota: Beautiful, secure, native, dashboards and AI chat; Rapid setup, minimal overhead
+- name: Scale-up / Mid-market
+  price_text: Speak to us
+  period: none
+  included_quota: Stronger governance and workflows; Collaboration across teams
+- name: Enterprise
+  price_text: Speak to us
+  period: none
+  included_quota: SLAs, support, and tailored rollout; High-scale environments
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Startup / Early stage
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Scale-up / Mid-market
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
